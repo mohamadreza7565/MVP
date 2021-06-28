@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="verySmallText">10sp</dimen>
+    <dimen name="smallText">11sp</dimen>
+    <dimen name="normalText">14sp</dimen>
+    <dimen name="largeText">16sp</dimen>
+    <dimen name="veryLargeText">18sp</dimen>
+    <dimen name="parallax_image_height">300dp</dimen>
+
+    <dimen name="spacing">16dp</dimen>
+    <dimen name="spacing_small">8dp</dimen>
+    <dimen name="spacing_large">24dp</dimen>
+    <dimen name="spacing_xlarge">24dp</dimen>
+    <dimen name="spacing_xsmall">4dp</dimen>
+
+    <dimen name="edit_text_height">45dp</dimen>
+    <dimen name="button_height">55dp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="mtf_cardHeight_initial">4dp</dimen>
+    <dimen name="mtf_cardHeight_final">55dp</dimen>
+    <dimen name="mtf_corner_radius">4dp</dimen>
+
+</resources>

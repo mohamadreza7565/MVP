@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:gravity="center">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/img_bottomNavigationIcon"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerHorizontal="true" />
+
+        <com.ryfa.MVP.widgets.CircleImageView
+            android:id="@+id/img_bnShadow"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="15dp"
+            android:src="@color/colorGreen_500"
+            android:visibility="gone" />
+
+        <com.ryfa.MVP.widgets.TextViewBold
+            android:layout_width="wrap_content"
+            android:layout_below="@id/img_bottomNavigationIcon"
+            android:textSize="10sp"
+            android:id="@+id/tv_title"
+            android:layout_marginTop="2dp"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

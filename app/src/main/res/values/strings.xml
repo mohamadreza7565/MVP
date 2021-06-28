@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">SampleApp</string>
+
+    <string name="copied_to_clipboard">در حافظه کپی شد</string>
+    <string name="press_twice_exit">برای خروج دوبار کلید بازگشت را بزنید</string>
+
+    <!--TimeSinceAgo-->
+    <string name="relative_time_just_now"> چند لحظه پیش</string>
+    <string name="relative_time_one_minute_ago"> یک دقیقه پیش</string>
+    <string name="relative_time_minute_ago"> دقیقه پیش</string>
+    <string name="relative_time_one_hour_ago"> کمتر از یک ساعت پیش</string>
+    <string name="relative_time_hour_ago"> ساعت پیش</string>
+    <string name="relative_time_yesterday"> دیروز</string>
+    <string name="relative_time_days_ago"> روز پیش</string>
+</resources>

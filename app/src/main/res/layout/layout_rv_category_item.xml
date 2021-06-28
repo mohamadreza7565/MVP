@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:toos="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="55dp">
+
+    <com.ryfa.MVP.widgets.TextViewBold
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        toos:text="نام دسته بندی"
+        android:layout_marginTop="10dp"
+        android:id="@+id/tv_category"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorGrey_100"/>
+
+</LinearLayout>

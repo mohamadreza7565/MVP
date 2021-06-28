@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:toos="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="120dp">
+
+    <com.ryfa.MVP.widgets.CircleImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="20dp"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/ic_launcher" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginRight="120dp"
+            android:gravity="right"
+            android:orientation="vertical">
+
+            <com.ryfa.MVP.widgets.TextViewBold
+                android:id="@+id/tv_app_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorIndigoDark"
+                toos:text="نام برنامه" />
+
+
+            <com.ryfa.MVP.widgets.TextView
+                android:id="@+id/tv_category"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorIndigoDark"
+                android:textSize="12sp"
+                toos:text="دسته بندی" />
+
+            <com.ryfa.MVP.widgets.TextView
+                android:id="@+id/tv_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/colorIndigoDark"
+                android:textSize="12sp"
+                toos:text="قیمت" />
+
+
+        </LinearLayout>
+
+        <com.ryfa.MVP.widgets.Button
+            android:id="@+id/btn_pay"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bg_btn_indigo_dark"
+            android:text="خرید"
+            android:textColor="@color/white" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

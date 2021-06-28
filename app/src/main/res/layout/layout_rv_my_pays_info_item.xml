@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:toos="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        android:foreground="?attr/selectableItemBackground"
+        app:cardCornerRadius="6dp"
+        app:cardElevation="0dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right|center_vertical"
+            android:orientation="horizontal">
+
+
+            <com.ryfa.MVP.widgets.TextViewBold
+                android:id="@+id/tv_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="right"
+                android:layout_marginRight="4dp"
+                android:layout_toRightOf="@+id/tv_create_at"
+                android:ellipsize="end"
+                android:gravity="right|center_vertical"
+                android:maxLines="1"
+                android:padding="8dp"
+                android:text="عنوان پیام"
+                android:textColor="@color/colorIndigoDark" />
+
+
+            <com.ryfa.MVP.widgets.TextViewBold
+                android:id="@+id/tv_day"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_price"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="right"
+                android:layout_marginRight="4dp"
+                android:layout_marginBottom="5dp"
+                android:ellipsize="end"
+                android:gravity="right|center_vertical"
+                android:maxLines="1"
+                android:padding="8dp"
+                android:text="متن پیام"
+                android:textColor="@color/colorIndigoDark"
+                android:textSize="10sp" />
+
+            <com.ryfa.MVP.widgets.TextView
+                android:id="@+id/tv_create_at"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_gravity="left"
+                android:layout_marginLeft="4dp"
+                android:layout_marginEnd="4dp"
+                android:layout_marginBottom="5dp"
+                android:padding="8dp"
+                android:text="زمان پیام"
+                android:textColor="@color/colorIndigo"
+                android:textSize="10sp" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <View
+        android:id="@+id/v_divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorGrey_100" />
+
+</LinearLayout>
